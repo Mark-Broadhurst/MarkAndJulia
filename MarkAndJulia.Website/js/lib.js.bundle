@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle minify="true" runOnBuild="true" output="lib.js">
+  <!--The order of the <file> elements determines the order of them when bundled.-->
+  <file>/Scripts/angular.js</file>
+  <file>/Scripts/bootstrap.js</file>
+  <file>/Scripts/jquery-2.0.1.js</file>
+  <file>/Scripts/underscore.js</file>
+</bundle>
+
