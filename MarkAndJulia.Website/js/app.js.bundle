@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle minify="true" runOnBuild="true">
+	<!--The order of the <file> elements determins the order of them when bundled.-->
+	<file>/js/app/app.js</file>
+	<file>/js/app/controllers/Wedding/AccommodationController.js</file>
+	<file>/js/app/controllers/Wedding/DateController.js</file>
+	<file>/js/app/controllers/Wedding/DirectionsController.js</file>
+	<file>/js/app/controllers/Wedding/GiftListController.js</file>
+	<file>/js/app/controllers/Wedding/OrderOfTheDayController.js</file>
+	<file>/js/app/controllers/Wedding/RsvpController.js</file>
+	<file>/js/app/controllers/Wedding/VenueController.js</file>
+	<file>/js/app/controllers/ContactUsController.js</file>
+	<file>/js/app/controllers/HomeController.js</file>
+	<file>/js/app/controllers/LoginController.js</file>
+	<file>/js/app/controllers/PhotoController.js</file>
+	<file>/js/app/services/LoginService.js</file>
+	<file>/js/app/services/ContactUsService.js</file>
+	<file>/js/app/services/OrderOfTheDayService.js</file>
+	<file>/js/app/services/RsvpService.js</file>
+	<file>/js/app/directives/carousel.js</file>
+</bundle>

@@ -1,0 +1,31 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="span12">
+            <h1>Order of the Day</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="span6">
+            <h3>Saturday 20th July 2013</h3>
+            <table class="table">
+                <tr ng-repeat="event in listOfEvents.saturday | orderBy: Date">
+                    <td class="span1"><b>{{event.Time}}</b></td>
+                    <td class="span4" ng-mouseover="showHint()" ng-mouseout="hideHint()">{{event.Event}} <i class="icon-info-sign" ng-show="event.Notes"></i></td>
+                </tr>
+            </table>
+            <h3>Sunday 21st July 2013</h3>
+            <table class="table">
+                <tr ng-repeat="event in listOfEvents.sunday | orderBy: Date">
+                    <td class="span1"><b>{{event.Time}}</b></td>
+                    <td class="span4" ng-mouseover="showHint()" ng-mouseout="hideHint()">{{event.Event}} <i class="icon-info-sign" ng-show="event.Notes"></i></td>
+                </tr>
+            </table>
+        </div>
+        <div class="span5">
+            <div class="alert alert-info" ng-show="currentEvent.Notes">
+                <h5>{{currentEvent.Event}}</h5>
+                {{currentEvent.Notes}}
+            </div>
+        </div>
+    </div>
+</div>

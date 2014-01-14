@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="MarkAndJulia.Data.Objects"
+                   namespace="MarkAndJulia.Data.Objects">
+  <class name="ContactUs" table="[ContactUs]">
+    <id name="ContactUsId">
+      <generator class="native" />
+    </id>
+    <property name="Name" />
+    <property name="Telephone" />
+    <property name="Email" />
+    <property name="Question" />
+  </class>
+</hibernate-mapping>

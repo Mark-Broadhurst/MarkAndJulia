@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="MarkAndJulia.Data.Objects"
+                   namespace="MarkAndJulia.Data.Objects">
+  <class name="Rsvp" schema="[Wedding]" table="[Rsvp]">
+    <id name="RsvpId">
+      <generator class="native" />
+    </id>
+    <property name="CanAttend" />
+    <property name="GuestNames" />
+    <property name="Telephone" />
+    <property name="Email" />
+    <property name="DietaryRequirements" />
+    <property name="RoomRequired" />
+    <property name="CotRequired" />
+  </class>
+</hibernate-mapping>

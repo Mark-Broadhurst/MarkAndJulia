@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="MarkAndJulia.Data.Objects"
+                   namespace="MarkAndJulia.Data.Objects">
+  <class name="OrderOfTheDay" schema="[Wedding]" table="[OrderOfTheDay]">
+    <id name="OrderOfTheDayId">
+      <generator class="native" />
+    </id>
+    <property name="Date" />
+    <property name="Event" />
+    <property name="Notes" />
+  </class>
+</hibernate-mapping>
